@@ -1,0 +1,30 @@
+{
+  "name": { "he": "נתניה", "en": "Netanya" },
+  "sub": { "he": "עיריית", "en": "City of" },
+  "file": "netanya.json",
+  "app": { "bundleId": "il.muni.netanya", "displayName": "נתניה", "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/NetanyaCoa.svg" },
+  "theme": { "primary": "#E2701B", "primaryDark": "#B5530C", "accent": "#1E83C9", "surface": "#FBF5EF", "logoIcon": "beach_access" },
+  "buttons": [
+    { "type": "inapp", "icon": "account_circle", "title": { "he": "אזור אישי", "en": "My Account" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "inapp", "icon": "receipt_long", "title": { "he": "תשלומים", "en": "Payments" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "phone", "icon": "support_agent", "title": { "he": "מוקד 107", "en": "Hotline 107" }, "url": "107" },
+    { "type": "website", "icon": "waves", "title": { "he": "חופי נתניה", "en": "Beaches" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "inapp", "icon": "local_parking", "title": { "he": "חניה ותחבורה", "en": "Parking" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "inapp", "icon": "report", "title": { "he": "דיווח מפגע", "en": "Report Issue" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "inapp", "icon": "celebration", "title": { "he": "אירועים", "en": "Events" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "whatsapp", "icon": "chat", "title": { "he": "וואטסאפ העירייה", "en": "City WhatsApp" }, "url": "+972-9-860-3333" }
+  ],
+  "menu": [
+    { "type": "screen", "icon": "home", "title": { "he": "דף הבית", "en": "Home" }, "target": "home" },
+    { "type": "inapp", "icon": "description", "title": { "he": "טפסים מקוונים", "en": "Online Forms" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "inapp", "icon": "newspaper", "title": { "he": "חדשות העיר", "en": "City News" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "website", "icon": "map", "title": { "he": "מפת העיר", "en": "City Map" }, "url": "https://www.netanya.muni.il/" },
+    { "type": "phone", "icon": "call", "title": { "he": "צרו קשר", "en": "Contact Us" }, "url": "+972-9-860-3333" },
+    { "type": "screen", "icon": "notifications", "title": { "he": "התראות", "en": "Notifications" }, "target": "notifications" }
+  ],
+  "notifs": [
+    { "icon": "waves", "title": { "he": "דגל החוף: לבן", "en": "Beach Flag: White" }, "body": { "he": "הרחצה מותרת בכל חופי הרחצה המוכרזים. שהו ליד מציל.", "en": "Swimming permitted at all declared beaches. Stay near a lifeguard." }, "time": { "he": "לפני שעה", "en": "1h ago" } },
+    { "icon": "local_parking", "title": { "he": "הסדר חניה חדש", "en": "New Parking Zone" }, "body": { "he": "אזור כחול-לבן חדש נכנס לתוקף ברחוב הרצל מ-1.7.", "en": "A new blue-and-white zone takes effect on Herzl St. from Jul 1." }, "time": { "he": "אתמול", "en": "Yesterday" } },
+    { "icon": "celebration", "title": { "he": "פסטיבל קיץ", "en": "Summer Festival" }, "body": { "he": "מופעי חינם בכיכר העצמאות כל סוף שבוע באוגוסט.", "en": "Free shows at Independence Square every weekend in August." }, "time": { "he": "לפני יומיים", "en": "2d ago" } }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": { "he": "רעננה", "en": "Ra'anana" },
+  "sub": { "he": "עיריית", "en": "City of" },
+  "file": "raanana.json",
+  "app": { "bundleId": "il.muni.raanana", "displayName": "רעננה", "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Coat_of_Arms_of_Raanana_%282023%29.svg" },
+  "theme": { "primary": "#0E9AA7", "primaryDark": "#077580", "accent": "#F25C54", "surface": "#EDF7F7", "logoIcon": "local_florist" },
+  "buttons": [
+    { "type": "inapp", "icon": "account_circle", "title": { "he": "אזור אישי", "en": "My Account" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "inapp", "icon": "receipt_long", "title": { "he": "תשלומים וארנונה", "en": "Payments & Tax" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "phone", "icon": "support_agent", "title": { "he": "מוקד 1-800", "en": "Hotline" }, "url": "1800-104-104" },
+    { "type": "inapp", "icon": "local_library", "title": { "he": "הספרייה העירונית", "en": "City Library" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "inapp", "icon": "report", "title": { "he": "דיווח מפגע", "en": "Report Issue" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "inapp", "icon": "celebration", "title": { "he": "אירועי תרבות", "en": "Culture & Events" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "website", "icon": "sports_soccer", "title": { "he": "ספורט ופנאי", "en": "Sports & Leisure" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "app", "icon": "smart_toy", "title": { "he": "מאמן הורים AI", "en": "AI Parent Coach" }, "url": "apps.apple.com/us/app/kidsit-ai-parent-coach/id6769443099" },
+    { "type": "whatsapp", "icon": "chat", "title": { "he": "וואטסאפ העירייה", "en": "City WhatsApp" }, "url": "+972-9-761-0610" }
+  ],
+  "menu": [
+    { "type": "screen", "icon": "home", "title": { "he": "דף הבית", "en": "Home" }, "target": "home" },
+    { "type": "inapp", "icon": "description", "title": { "he": "טפסים מקוונים", "en": "Online Forms" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "inapp", "icon": "newspaper", "title": { "he": "חדשות העיר", "en": "City News" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "website", "icon": "map", "title": { "he": "מפת העיר", "en": "City Map" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "phone", "icon": "call", "title": { "he": "צרו קשר", "en": "Contact Us" }, "url": "+972-9-761-0610" },
+    { "type": "inapp", "icon": "info", "title": { "he": "אודות העירייה", "en": "About the City" }, "url": "https://www.raanana.muni.il/" },
+    { "type": "screen", "icon": "notifications", "title": { "he": "התראות", "en": "Notifications" }, "target": "notifications" }
+  ],
+  "notifs": [
+    { "icon": "local_library", "title": { "he": "שעות פתיחה מורחבות", "en": "Extended Library Hours" }, "body": { "he": "הספרייה המרכזית פתוחה עד 22:00 בימי חמישי לאורך הקיץ.", "en": "Central library open until 22:00 on Thursdays all summer." }, "time": { "he": "לפני 4 שעות", "en": "4h ago" } },
+    { "icon": "recycling", "title": { "he": "מיחזור קרטון", "en": "Cardboard Recycling" }, "body": { "he": "מתקני מיחזור חדשים הוצבו בשכונת לב הפארק.", "en": "New recycling bins installed in the Lev HaPark neighborhood." }, "time": { "he": "אתמול", "en": "Yesterday" } },
+    { "icon": "celebration", "title": { "he": "פסטיבל ההיכל", "en": "Heichal Festival" }, "body": { "he": "כרטיסים למופעי הסתיו בהיכל התרבות אזלו כמעט לגמרי.", "en": "Tickets for autumn shows at the culture hall are nearly sold out." }, "time": { "he": "לפני 3 ימים", "en": "3d ago" } }
+  ]
+}
