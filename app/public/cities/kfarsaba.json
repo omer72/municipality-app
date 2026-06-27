@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "name": { "he": "כפר סבא", "en": "Kfar Saba" },
   "sub": { "he": "עיריית", "en": "City of" },
   "file": "kfar-saba.json",
@@ -13,7 +13,7 @@
     { "type": "inapp", "icon": "account_circle", "title": { "he": "אזור אישי", "en": "My Account" }, "url": "https://forms.kfar-saba.muni.il/4u/login" },
     { "type": "inapp", "icon": "receipt_long", "title": { "he": "תשלומים וארנונה", "en": "Payments & Tax" }, "url": "https://www.kfar-saba.muni.il/" },
     { "type": "inapp", "icon": "support_agent", "title": { "he": "מוקד 106", "en": "Hotline 106" }, "url": "https://forms.kfar-saba.muni.il/4u/login/?source=express" },
-    { "type": "inapp", "icon": "report", "title": { "he": "דיווח מפגע", "en": "Report Issue" }, "url": "https://www.kfar-saba.muni.il/" },
+    { "type": "inapp", "icon": "report", "title": { "he": "106 דיווח מפגע", "en": "Report Issue" }, "url": "https://www.kfar-saba.muni.il/" },
     { "type": "inapp", "icon": "celebration", "title": { "he": "אירועים ותרבות", "en": "Events & Culture" }, "url": "https://www.kfar-saba.muni.il/" },
     { "type": "website", "icon": "child_care", "title": { "he": "גני ילדים", "en": "Kindergartens" }, "url": "https://www.kfar-saba.muni.il/" },
     { "type": "website", "icon": "local_florist", "title": { "he": "גינון ופארקים", "en": "Parks & Green" }, "url": "https://www.kfar-saba.muni.il/" },
