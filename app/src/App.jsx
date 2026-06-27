@@ -38,10 +38,22 @@ export default class App extends Component {
       }
       const cfg = await fetch(`./cities/${city}.json`).then(r => r.json());
       this.setState({ cfg, lang }, () => this.boot());
+      this.checkRemote(city, cfg);
     } catch (e) {
       this.setState({ loadError: String(e) });
     }
   }
+
+  checkRemote = async (city, local) => {
+    try {
+      const url = `https://raw.githubusercontent.com/omer72/municipality-app/main/app/public/cities/${city}.json`;
+      const remote = await fetch(url, { cache: 'no-store' }).then(r => r.ok ? r.json() : null);
+      if (remote && (remote.version ?? 0) > (local.version ?? 0)) {
+        this.setState({ cfg: remote });
+        this.showToast(this.isHE ? `התצורה עודכנה לגרסה ${remote.version}` : `Updated to v${remote.version}`, 'cloud_done');
+      }
+    } catch {}
+  };
   componentWillUnmount() {
     clearTimeout(this._bt); clearTimeout(this._lt); clearTimeout(this._tt);
   }
@@ -178,7 +190,7 @@ export default class App extends Component {
     const backIcon = he ? 'arrow_forward' : 'arrow_back';
     const chevron = he ? 'chevron_left' : 'chevron_right';
     const poweredBy = he ? 'מופעל ע״י CityApp' : 'Powered by CityApp';
-    const versionLine = he ? 'גרסה 3.2 · ' + c.file : 'v3.2 · ' + c.file;
+    const versionLine = (he ? 'גרסה ' : 'v') + (c.version ?? '?') + ' · ' + c.file;
     const doneLabel = he ? 'סיום' : 'Done';
     const pageBg = pageStore || pageSite ? '#fff' : t.surface;
     const cancelLabel = he ? 'ביטול' : 'Cancel';

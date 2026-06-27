@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "name": { "he": "כפר סבא", "en": "Kfar Saba" },
   "sub": { "he": "עיריית", "en": "City of" },
   "file": "kfar-saba.json",

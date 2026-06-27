@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "name": { "he": "נתניה", "en": "Netanya" },
   "sub": { "he": "עיריית", "en": "City of" },
   "file": "netanya.json",
